@@ -23,7 +23,7 @@ export default function Button(props) {
     style={props.style}>
          {
          props.isLoading ? ( <> 
-         <span className="spinner-border.spinner.border-sm.mx-5"> </span>
+         <span className="spinner-border spinner-border-sm mx-5"> </span>
          <span className="sr-only">Loading...</span>
              </>
     ) : (
