@@ -33,7 +33,7 @@ export default function Button(props) {
         );
     }
 
-    if(props.type=== "Link"){
+    if(props.type === "Link"){
         if(props.isExternal) {
             return (
                 <a href={props.href} 
@@ -58,12 +58,12 @@ export default function Button(props) {
     }
 
     return (
-        <Button
+        <button
         className={className.join(" ")} 
         style={props.style} 
         onClick={onClick}>
         {props.children}    
-        </Button>
+        </button>
     )
 }
 
@@ -71,13 +71,14 @@ Button.propTypes = {
     type : propTypes.oneOf(["Button", "Link"]),
     onClick : propTypes.func,
     target : propTypes.string,
-    href : propTypes.string,   //props external 
+    href : propTypes.string,   
     className : propTypes.string,
     isDisabled : propTypes.bool,
-    isLoading : propTypes.bool,  // animasi button loading 
+    isLoading : propTypes.bool,  
     isSmall : propTypes.bool,
     isLarge : propTypes.bool,
     isBlock : propTypes.bool,
     isExternal : propTypes.bool,
+    isPrimary : propTypes.bool,
     hasShadow : propTypes.bool,
 }
