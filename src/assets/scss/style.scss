@@ -123,20 +123,19 @@ section{
         color: $white;
         min-height: 30px;
         border-radius: 0 15px;
-
-    span{
+    span {
         font-weight: 300;
         }
     }
 
-.img-wrapper{
+    .img-wrapper{
     height: 100%;
     margin-bottom: 0;
     border-radius: 0.9375rem;
     overflow: hidden;
     }
 
-.meta-wrapper{
+    .meta-wrapper{
     margin-top: 1rem;
         h5{
         font-size: 1.125rem;
@@ -162,7 +161,7 @@ section{
             transform: scale(1.1);
             transition: .5s transform ease-in-out;
             z-index: 2;
-            @include gradient-y(rgba($black, 0),rgba($black, .51), 0%, 100%)
+            @include gradient-y(rgba($black, 0), rgba($black, .51), 0%, 100%)
         }
 
     .img-wrapper{
@@ -174,7 +173,7 @@ section{
         right: 0;
         bottom: 0;
         transform: scale(1.1);
-        transition: .25s tranform ease-in-out;
+        transition: .25s transform ease-in-out;
         border-radius: $border-radius;
         }
         

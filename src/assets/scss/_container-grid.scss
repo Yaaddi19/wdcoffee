@@ -7,10 +7,11 @@
     column-gap: 30px;
     position: relative;
     z-index: 3;
+    // max-height: 400px;
 
     &.sm{
         grid-auto-rows: minmax(245px, auto);
-        row-gap: 10px;
+        row-gap: 10;
         column-gap: 10px;
     }
 
