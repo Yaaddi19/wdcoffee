@@ -23,7 +23,7 @@ export default function Category({data}) {
                                                 <img src={item.imageUrl} alt={item.name} className="img-cover"></img>
                                             </figure>
                                            <div className="meta-wrapper">
-                                            <Button className="streched-link d-block text-gray-800"
+                                            <Button className="stretched-link d-block text-gray-800"
                                             href={`/properties/${item.id}`}
                                             type="Link">
                                                 <h5 className="h4">{item.name}</h5>
