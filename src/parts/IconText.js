@@ -6,7 +6,7 @@ export default function IconText() {
         <Button className="brand-text-icon" 
         href="" 
         type="Link" >
-          Stay<span className="text" >cation.</span>
+          WD Coffee
         </Button>
     )
 }

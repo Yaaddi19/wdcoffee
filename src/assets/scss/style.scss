@@ -49,9 +49,9 @@
     font-size:  26px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
-    color: $primary;
+    color: $orange;
     &:hover{
-        color: $primary;
+        color: $orange;
         text-decoration: none;
     }
 
@@ -74,12 +74,12 @@ header{
             .nav-item{
                 &.active{
                     a.nav-link{
-                        color: $primary;
+                        color: $orange;
                     }
                 }
                 a {
                     &.nav-link{
-                        color: $gray-900;
+                        color: $orange;
                         padding-left: 1rem;
                         padding-right: 1rem;
                         &:hover{
